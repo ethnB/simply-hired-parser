@@ -121,7 +121,7 @@ func main() {
 	// location e.g. 'Greater Manchester'
 	location := flag.String("location", "", "location to search for jobs e.g. 'Greater Manchester'")
 	// search query string e.g. 'Software Engineer'
-	searchQuery := flag.String("query", "", "job to search for e.g. 'Software Engineer'")
+	searchQuery := flag.String("searchQuery", "", "job to search for e.g. 'Software Engineer'")
 
 	flag.Parse()
 
