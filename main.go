@@ -125,12 +125,12 @@ func main() {
 
 	flag.Parse()
 
-	if *searchQuery == "" {
-		log.Panic("query is a required flag (-query \"Software Engineer\")")
-	}
-
 	if *location == "" {
 		log.Panic("location is a required flag (-location \"Greater Manchester\")")
+	}
+
+	if *searchQuery == "" {
+		log.Panic("searchQuery is a required flag (-searchQuery \"Software Engineer\")")
 	}
 
 	// ensure the output location exists and is empty
