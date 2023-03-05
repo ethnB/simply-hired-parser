@@ -1,4 +1,4 @@
-name: Build simply-hired-parser
+name: Build simply-hired-scraper
 
 on: [push]
 

@@ -1,4 +1,4 @@
-module github.com/ethnB/simply-hired-parser
+module github.com/ethnB/simply-hired-scraper
 
 go 1.18
 

@@ -1,11 +1,11 @@
-# simply-hired-parser
+# simply-hired-scraper
 
 ## Usage:
 
 Linux:
     
-    ./simply-hired-parser -location 'Greater Manchester' -searchQuery 'Software Engineer'
+    ./simply-hired-scraper -location 'Greater Manchester' -searchQuery 'Software Engineer'
 
 Windows:
     
-    simply-hired-parser.exe -location "Greater Manchester" -searchQuery "Software Engineer"
+    simply-hired-scraper.exe -location "Greater Manchester" -searchQuery "Software Engineer"
